@@ -46,3 +46,6 @@ console.log(Math.SQRT2);
 //9
 let newRandomNumber = Math.floor(Math.random() * 17) + 7;
 console.log(newRandomNumber);
+
+//OR
+let newRandomNumber2 = Math.floor(Math.random() * (23 - 7 + 1)) + 7;
