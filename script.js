@@ -1,5 +1,5 @@
 //1a
-let warmHugs = "hi, I'm Olaf and like warm hugs ";
+let warmHugs = "hi, I'm Olaf and like warm hugs";
 console.log(warmHugs);
 
 //1b
@@ -15,7 +15,7 @@ let beenImpaled = "oh, look at that.I've been impaled.";
 console.log(beenImpaled);
 
 //2b
-console.log(beenImpaled.slice(17));
+console.log(beenImpaled.slice(18));
 //3a
 let dotDotDot = "....";
 //3b
@@ -26,14 +26,13 @@ console.log(skullBones);
 console.log(Math.PI);
 
 //5
-let randomNumber = Math.random();
-randomNumber *= 3;
+let randomNumber = Math.floor(Math.random() * 3) + 1;
 console.log(randomNumber);
 
 //BONUS
 //6
-let letItGo = "'Let it Go!'";
-console.log(letItGo.repeat(2));
+let letItGo = "Let it Go!";
+console.log(letItGo.repeat(2).toUpperCase());
 
 //7
 let reindeers = "Reindeer are better than people.";
@@ -41,6 +40,8 @@ console.log(reindeers.replaceAll(" ", "_"));
 
 //8
 console.log(Math.sqrt(2));
+//OR
+console.log(Math.SQRT2);
 
 //9
 let newRandomNumber = Math.floor(Math.random() * 17) + 7;
